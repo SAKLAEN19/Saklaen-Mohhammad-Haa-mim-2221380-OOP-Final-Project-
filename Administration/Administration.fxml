@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="612.0" prefWidth="899.0" style="-fx-background-color: fffb78;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.administration_saklaenhaamim_2221380.AdministrationController">
+   <children>
+      <Label alignment="CENTER" ellipsisString="3" layoutX="330.0" layoutY="93.0" prefHeight="51.0" prefWidth="240.0" style="-fx-background-color: ffe800;" text="Administration" textAlignment="CENTER" textFill="RED" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font name="Calibri Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="49.0" prefHeight="35.0" prefWidth="44.0" text="HOME" underline="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="createUserButton" layoutX="96.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleCreateUserButton" prefHeight="8.0" prefWidth="320.0" style="-fx-background-color: black;" text="Create User" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchUserButton" layoutX="96.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleSearchUserButton" prefHeight="8.0" prefWidth="320.0" style="-fx-background-color: black;" text="Search User" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="editUserButton" layoutX="96.0" layoutY="334.0" mnemonicParsing="false" onAction="#handleEditUserButton" prefHeight="8.0" prefWidth="320.0" style="-fx-background-color: black;" text="Edit User" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteUserButton" layoutX="96.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleDeleteUserButton" prefHeight="8.0" prefWidth="320.0" style="-fx-background-color: black;" text="Delete User" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="qualityChecklistButton" layoutX="478.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleQualityChecklistButton" prefHeight="8.0" prefWidth="320.0" style="-fx-background-color: black;" text="Quality Control Checklist" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="updateServiceButton" layoutX="478.0" layoutY="263.0" mnemonicParsing="false" onAction="#handleUpdateServiceButton" prefHeight="8.0" prefWidth="320.0" style="-fx-background-color: black;" text="Update Service Offerings" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="feedbackAnalysisButton" layoutX="478.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleFeedbackAnalysisButton" prefHeight="8.0" prefWidth="320.0" style="-fx-background-color: black;" text="Feedback Analysis" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteServiceButton" layoutX="478.0" layoutY="334.0" mnemonicParsing="false" onAction="#handleDeleteServiceButton" prefHeight="8.0" prefWidth="320.0" style="-fx-background-color: black;" text="Delete Service Offerings" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="346.0" layoutY="501.0" prefHeight="35.0" prefWidth="208.0" text="SAKLAEN MOHAMMAD HAA-MIM">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="377.0" layoutY="527.0" prefHeight="35.0" prefWidth="146.0" text="ID: 2221380    Group:60">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
